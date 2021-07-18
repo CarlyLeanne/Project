@@ -1,0 +1,1 @@
+alert("Are you ready to discover your new career?");
