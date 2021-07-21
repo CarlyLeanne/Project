@@ -1,9 +1,9 @@
 :root {
-    --primary-color:#7779FF;
-    --secondary-color: #F46188;
-  --third-color: #642AB6;
-  --forth-color: #491D7F;
-  --box-shadow:5px 5px 20px 5px rgba(0,0,0,0.33);
+--primary-color:#7779FF;
+--secondary-color: #F46188;
+--third-color: #642AB6;
+--forth-color: #491D7F;
+--box-shadow:5px 5px 20px 5px rgba(0,0,0,0.33);
 }
 
 body {
@@ -13,7 +13,10 @@ body {
     display: flex;
     font-family: 'Bebas Neue', cursive;
     font-size: 20px;
-    color: #ffff;
+}
+a {
+    justify-content: center;
+    color: white;
 }
 h1{
     background: var(--secondary-color);
@@ -21,6 +24,96 @@ h1{
     color: var(--forth-color);
     font-family: 'Bebas Neue', cursive;
     font-size: 70px !important;
+}
+header h1 {
+    text-align: center;
+}
+h2 {
+    padding-top: 50px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    color: var(--forth-color);
+}
+p{
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    color: black
+}
+.text {
+    color: var(--forth-color);
+    font-family: 'Bebas Neue', cursive;
+    font-size: 24px;
+}
+div .link-button {
+    display:flex;
+    justify-content: center;
+}
+div .quiz{
+    margin: 20px;
+    padding: 20px 15px;
+  border-radius: 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+    background: var(--secondary-color);
+    box-shadow: var(--box-shadow);
+    color: var(--forth-color);
+    margin-bottom: 70px;
+    
+}
+div .quiz:hover{
+    color: var(--secondary-color);
+    background: var(--third-color);
+}
+.container-quiz{
+    width: 60%;
+    background: var(--secondary-color);
+    color: #000;
+    margin: 20px auto;
+    overflow: auto;
+    padding: 2.6rem;
+    box-shadow: var(--box-shadow);
+    border-radius: 15px;
+}
+#results{
+background: var(--primary-color);
+font-family: 'Bebas Neue', cursive;
+}
+form {
+    
+    font-family: 'Poppins', sans-serif;
+}
+h3{
+    padding: 15px;
+    font-size: 20px !important;
+}
+
+.button {
+    display: block;
+    margin: 0 auto;
+    background: var(--primary-color);
+    border: 0;
+    color: var(--forth-color);
+    padding: 10px 12px;
+    border-radius: 15px;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: var(--box-shadow);
+}
+.link{
+    text-align: center;
+    padding: 20px;
+
+}
+div .leave{
+    color: var(--forth-color);
+    text-decoration: none;
+  text-transform: capitalize;
+  
+}
+div .leave:hover {
+text-decoration: underline;
+color: var(--third-color);
 }
 div .card{
     display: flex;
@@ -43,7 +136,4 @@ div .card{
 img{
     margin-top: 10px;
     padding: 20px;
-}
-footer {
-    margin: 100px;
 }
