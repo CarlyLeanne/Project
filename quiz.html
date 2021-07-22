@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="resources.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&family=Poppins:wght@200&display=swap" rel="stylesheet">
+<script src="quiz.js"></script>
+
+<title>Quiz</title>
+</head>
+
+	<body>
+		<div class="container-quiz">
+			<header>
+				<h1>Test your knowledge </h1>
+			</header>
+			<section>
+				<div id="results"></div>
+				<form name="quizForm" onsubmit="return submitAnswers()">
+					<h3>1. What is the correct HTML for inserting an image?</h3>
+					<input type="radio" name="q1" value="a" id="q1a"> a. &lt;image src="image.gif" alt="MyImage"&gt;<br/>
+					<input type="radio" name="q1" value="b" id="q1b"> b. &lt;img src="image.gif" alt="MyImage"&gt;<br/>
+					<input type="radio" name="q1" value="c" id="q1c"> c. &lt;img href="image.gif" alt="MyImage"&gt;<br/>
+					<input type="radio" name="q1" value="d" id="q1d"> d. &lt;img alt="MyImage", "image.gif"&gt;<br/>
+					
+					<h3>2. Which is the correct CSS syntax?</h3>
+					<input type="radio" name="q2" value="a" id="q2a"> a. body { color: black; }<br/>
+					<input type="radio" name="q2" value="b" id="q2b"> b. { body: color: black; }<br/>
+					<input type="radio" name="q2" value="c" id="q2c"> c. { body: color= black; }<br/>
+					<input type="radio" name="q2" value="d" id="q2d"> d. body: color= black<br/>
+
+					<h3>3. Witch CSS property is used to change the text size?</h3>
+					<input type="radio" name="q3" value="a" id="q3a"> a. text-size;<br/>
+					<input type="radio" name="q3" value="b" id="q3b"> b. font-style;<br/>
+					<input type="radio" name="q3" value="c" id="q3c"> c. text-style;<br/>
+					<input type="radio" name="q3" value="d" id="q3d"> d. font-size;<br/>
+
+					<h3>4. What is the correct way to write a JavaScript array?</h3>
+					<input type="radio" name="q4" value="a" id="q4a"> a. let colors = { ("red"), ("green"), ("blue") }<br/>
+					<input type="radio" name="q4" value="b" id="q4b"> b. let colors = ["red", "green", "blue"]<br/>
+                    <input type="radio" name="q4" value="c" id="q4c"> b. let colors = (1:"red",2"green", 3"blue")<br/>
+                    <input type="radio" name="q4" value="d" id="q4d"> b. let colors = "red", "green:, "blue"<br/>
+
+					<h3>5. How do you call a function named "myFunction"?</h3>
+					<input type="radio" name="q5" value="a" id="q5a"> a. call myFunction()<br/>
+					<input type="radio" name="q5" value="b" id="q5b"> b. call function myFunction()<br/>
+					<input type="radio" name="q5" value="c" id="q5c"> c. call.myFunction()<br/>
+					<input type="radio" name="q5" value="d" id="q5d"> d. myFunction()<br/>
+					<br><br>
+					<input class="button" type="submit" value="Submit Answers">
+				</form>
+                <div class="link">
+                    <a href="resources.html" class="leave">Leave the quiz</a>
+                    </div>
+			</section>
+		</div>
+	</body>	
+</html>
