@@ -137,3 +137,27 @@ img{
     margin-top: 10px;
     padding: 20px;
 }
+footer {
+    background-color: rgb(244, 97, 136);
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    margin-top: 50px;
+}
+
+.footerSmallText {
+    font-size: 22.5px;
+    margin-top: 1%;
+}
+
+.footerNames {
+    font-family: 'Lobster', cursive;
+    font-weight: bold;
+    font-size: 25px;
+    margin: 0px 0px;
+}
+
+.footerLargeText
+{
+    margin-bottom: 0px;
+    font-size: 32.5px;
+}
