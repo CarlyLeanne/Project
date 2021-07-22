@@ -6,7 +6,7 @@
 }
 
 body {
-  color:#7779FF;
+  color:rgb(73, 29, 127);
   background-color:#491D7F;
   font-family: 'Poppins', sans-serif;
 }
@@ -40,19 +40,19 @@ p{
 }
 
 script{
-  color:#F46188
+  color:rgb(73, 29, 127)
 }
 
 label{
-  color:#F46188
+  color:rgb(73, 29, 127)
 }
 
 input{
-  color:#F46188
+  color:rgb(73, 29, 127)
 }
 
 submit{
-  color:#F46188
+  color:rgb(73, 29, 127)
 }
 
 footer {
