@@ -5,12 +5,18 @@
   color: #7779FF;
 }
 
+body {
+  color:#7779FF;
+  background-color:#491D7F
+}
 
-body   
-{color:#7779FF;}  body{background-color:#491D7F}
+h1{
+  background-color:#F46188
+}
 
-h1{background-color:#F46188}
-h2{background-color:#F46188}
+h2{
+  background-color:#F46188
+}
 
 div {
 padding-top: 50px;
@@ -19,10 +25,30 @@ padding-bottom: 50px;
 padding-left:300px;
  margin:  12x 12x 12x 12x;
 }
-h3{background-color:#F46188}
-ul{background-color:#F46188}
-p{background-color:#F46188}
-script{color:#F46188}
-label{color:#F46188}
-input{color:#F46188}
-submit{color:#F46188}
+
+h3{
+  background-color:#F46188
+}
+
+ul{
+  background-color:#F46188
+}
+p{
+  background-color:#F46188
+}
+
+script{
+  color:#F46188
+}
+
+label{
+  color:#F46188
+}
+
+input{
+  color:#F46188
+}
+
+submit{
+  color:#F46188
+}
