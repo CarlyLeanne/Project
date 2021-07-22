@@ -18,13 +18,13 @@ h2{
   background-color:#F46188
 }
 
-/*div {
+.boxes {
 padding-top: 50px;
 padding-right: 200px;
 padding-bottom: 50px;
 padding-left:300px;
- margin:  12x 12x 12x 12x;
-} */
+margin:  12x 12x 12x 12x;
+} 
 
 h3{
   background-color:#F46188
@@ -51,4 +51,29 @@ input{
 
 submit{
   color:#F46188
+}
+
+footer {
+  background-color: rgb(244, 97, 136);
+  text-align: center;
+  font-family: 'Bebas Neue', cursive;
+  margin-top: 50px;
+}
+
+.footerSmallText {
+  font-size: 22.5px;
+  margin-top: 1%;
+}
+
+.footerNames {
+  font-family: 'Lobster', cursive;
+  font-weight: bold;
+  font-size: 25px;
+  margin: 0px 0px;
+}
+
+.footerLargeText
+{
+  margin-bottom: 0px;
+  font-size: 32.5px;
 }
