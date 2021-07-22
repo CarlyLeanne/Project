@@ -12,11 +12,11 @@ body {
 }
 
 h1{
-  background-color:#F46188
+  background-color:#F46188;
 }
 
 h2{
-  background-color:#F46188
+  background-color:#F46188;
 }
 
 .boxes {
@@ -28,31 +28,31 @@ margin:  12x 12x 12x 12x;
 } 
 
 h3{
-  background-color:#F46188
+  background-color:#F46188;
 }
 
 ul{
-  background-color:#F46188
+  background-color:#F46188;
 }
 
 p{
-  background-color:#F46188
+  background-color:#F46188;
 }
 
 script{
-  color:rgb(73, 29, 127)
+  color:rgb(73, 29, 127);
 }
 
 label{
-  color:rgb(73, 29, 127)
+  color:rgb(73, 29, 127);
 }
 
 input{
-  color:rgb(73, 29, 127)
+  color:rgb(73, 29, 127);
 }
 
 submit{
-  color:rgb(73, 29, 127)
+  color:rgb(73, 29, 127);
 }
 
 footer {
