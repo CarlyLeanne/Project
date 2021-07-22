@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - About us</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!doctype html> <html>
+<head><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet"><font size="+2"> <link rel=¨stylesheet¨ type=¨text/css¨ href=¨..\[About us].css¨></head>
+<body>
+<script src="..\[About us].js"></script>
+    
+  <div class="navbar"> <h1>home trailblazers TechPaths Career Advice About</h1> </div>
+ <div class="about"<input type="text" name="textbox_name" id="textbox_id"
+class="textbox_classname"><h1> ABOUT US </h1>
+<h2>Team Amethyst</h2>
+  <img src="https://unsplash.com/photos/jLWLxX6i3R8"></div>
+ <div class="box-wrapper">
+        <div id="box1">  <p class="text"><h3>E-MAILS</h3> 
+  <ul>
+    <li>Carly Watson : carly_watson@outlook.com</li>
+    <li>Elizabeth Chapman : elizabethmaychapman@gmail.com </li>
+    <li>Jessica Jevon : jjevon13@gmail.com</li>
+    <li>Maria Beatriz : mariabia.ferraz@gmail.com</li>
+    <li>Judith Fressard : juditf@hotmail.fr</li>
+  </ul>
+          
+          </textbox>
+          
+    
+</div>
+    </p>
+
+  </div>
+  
+ <div class="contact form"> <p class="text" <h4>CONTACT FORM</h4>
+
+    <title>Contact Form</title>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            // https://dashboard.emailjs.com/admin/integration
+            emailjs.init('YOUR_USER_ID');
+        })();
+    </script>
+    <script type="text/javascript">
+        window.onload = function() {
+            document.getElementById('contact-form').addEventListener('submit', function(event) {
+                event.preventDefault();
+                // generate a five digit number for the contact_number variable
+                this.contact_number.value = Math.random() * 100000 | 0;
+                // these IDs from the previous steps
+                emailjs.sendForm('contact_service', 'contact_form', this)
+                    .then(function() {
+                        console.log('SUCCESS!');
+                    }, function(error) {
+                        console.log('FAILED...', error);
+                    });
+            });
+        }
+    </script>
+</head>
+<body>
+    <form id="contact-form">
+        <input type="hidden" name="contact_number">
+        <label>Name</label>
+        <input type="text" name="user_name">
+        <label>Email</label>
+        <input type="email" name="user_email">
+        <label>Message</label>
+        <textarea name="message"></textarea>
+        <input type="submit" value="Send">
+    </form>
+  
+</body>
+</html>
+</div>
+    
+  </body>
+<html></hmtl>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
